@@ -30,7 +30,7 @@ class Arrow
   {
    float imgx = 600;
    float imgy = 600;
-   float angle = atan2(mouseY - imgx, mouseX - imgy);
+   float angle = atan2(mouseY - imgy, mouseX - imgx);
    translate(imgx, imgy);
    rotate(angle);
    imageMode(CENTER);
